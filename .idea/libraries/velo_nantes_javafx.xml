@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="velo-nantes-javafx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/velo-nantes-javafx/mysql-connector-j-8.0.33.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/velo-nantes-javafx/Rendu_Groupe_4B2_Mellion_Perrudin_Bouillis_Nicolas.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

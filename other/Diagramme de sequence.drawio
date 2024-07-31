@@ -1,0 +1,191 @@
+<mxfile host="app.diagrams.net" modified="2023-06-15T10:39:38.898Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="aU4yNIaKeXy66fkp4Fgo" version="21.4.0" type="device">
+  <diagram name="Page-1" id="jepwlo9yQ6EUDHf_CkzT">
+    <mxGraphModel dx="2049" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--3" value="&lt;u&gt;:Quartier&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="120" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e0yvPpbI0aPIqQEcS8R--3">
+          <mxGeometry x="55" y="60" width="10" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--10" value="totalPassages(dateDebut, dateFin)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="e0yvPpbI0aPIqQEcS8R--9" parent="e0yvPpbI0aPIqQEcS8R--3">
+          <mxGeometry x="0.1765" relative="1" as="geometry">
+            <mxPoint x="-90" y="60" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="60" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--11" value="70" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="e0yvPpbI0aPIqQEcS8R--9" parent="e0yvPpbI0aPIqQEcS8R--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="620" />
+              <mxPoint y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--4" value="&lt;u&gt;:Compteur&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="125" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e0yvPpbI0aPIqQEcS8R--4">
+          <mxGeometry x="55" y="100" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--5" value="&lt;u&gt;:Comptage&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="120" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e0yvPpbI0aPIqQEcS8R--5">
+          <mxGeometry x="55" y="300" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e0yvPpbI0aPIqQEcS8R--5">
+          <mxGeometry x="55" y="460" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--6" value="&lt;u&gt;dateDebut:DateInfo&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="140" width="120" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e0yvPpbI0aPIqQEcS8R--6">
+          <mxGeometry x="55" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--7" value="&lt;u&gt;dateFin:DateInfo&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="960" y="140" width="120" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e0yvPpbI0aPIqQEcS8R--7">
+          <mxGeometry x="55" y="220" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--8" value="&lt;u&gt;laDate:DateInfo&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="140" width="120" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e0yvPpbI0aPIqQEcS8R--8">
+          <mxGeometry x="55" y="380" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--14" value="total+=totalPassages(-) : 70" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="e0yvPpbI0aPIqQEcS8R--12" parent="1" target="e0yvPpbI0aPIqQEcS8R--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="315" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="680" />
+              <mxPoint x="380" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--16" value="getDate()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="e0yvPpbI0aPIqQEcS8R--15" parent="1" source="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry x="0.5128" relative="1" as="geometry">
+            <mxPoint x="683" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="597" y="280" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--17" value="debut=getDate() : 2020-12-31" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="e0yvPpbI0aPIqQEcS8R--15" parent="1" target="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry x="-0.5128" relative="1" as="geometry">
+            <mxPoint x="683" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="320" />
+              <mxPoint x="600" y="360" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--13" value="totalPassages(dateDebut, dateFin)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="e0yvPpbI0aPIqQEcS8R--12" parent="1" source="e0yvPpbI0aPIqQEcS8R--9">
+          <mxGeometry x="0.0244" relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="310" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--25" value="fin=getDate() : 2021-01-02" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="e0yvPpbI0aPIqQEcS8R--23" parent="1" target="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry x="-0.0826" relative="1" as="geometry">
+            <mxPoint x="830" y="395" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="400" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--24" value="getDate()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="e0yvPpbI0aPIqQEcS8R--23" parent="1" source="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry x="0.0826" relative="1" as="geometry">
+            <mxPoint x="830" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="670" y="360" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--28" value="laDate=getLaDate()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="e0yvPpbI0aPIqQEcS8R--26" parent="1" target="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="515" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="480" />
+              <mxPoint x="550" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--27" value="getLaDate()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="e0yvPpbI0aPIqQEcS8R--26" parent="1" source="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="520" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--30" value="getDate()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="e0yvPpbI0aPIqQEcS8R--29" parent="1" source="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry x="0.2532" relative="1" as="geometry">
+            <mxPoint x="980" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="670" y="520" />
+              <mxPoint x="700" y="600" />
+              <mxPoint x="830" y="480" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--31" value="date=getDate() : 2021-01-01" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="e0yvPpbI0aPIqQEcS8R--29" parent="1" target="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry x="-0.2532" relative="1" as="geometry">
+            <mxPoint x="980" y="555" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="560" />
+              <mxPoint x="700" y="640" />
+              <mxPoint x="710" y="650" />
+              <mxPoint x="830" y="520" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--37" value="total+=totalPassages() : 70" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="e0yvPpbI0aPIqQEcS8R--35" parent="1" target="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="675" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--36" value="totalPassages()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="e0yvPpbI0aPIqQEcS8R--35" parent="1" source="e0yvPpbI0aPIqQEcS8R--12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="510" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--40" value="this.date = 2020-12-31" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=7;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="830" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--41" value="this.date = 2021-01-02" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=7;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--42" value="this.date = 2021-01-01" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=7;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e0yvPpbI0aPIqQEcS8R--43" value="&lt;div&gt;this.passages = &lt;br&gt;&lt;/div&gt;&lt;div&gt;{1,1,1,1,1,2,2,2,2,2,3,3,&lt;/div&gt;&lt;div&gt;3,3,3,4,4,4,4,4,5,5,5,5}&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=7;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="630" y="190" width="130" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

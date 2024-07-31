@@ -1,0 +1,66 @@
+Nous allons présenter l'application selon les deux points de vue prévu par celle-ci (utilisateur et administrateur):
+
+L'application pour un utilisateur :
+
+- La Map :
+    L'utilisateur peut parcourir la carte Google de Nantes directement sur l'application avec les bornes indiquées sur la carte.
+    Il peut donc sélectionner n'importe quelle borne qui l'intéresse, ce qui va lui indiquer son nom, son id, sa position gps, son quartier, le nombre total de passage à cette borne et la moyenne des passages.
+    L'application va automatiquement remplir les filtres pour le quartier et le nom de la borne sélectionnée.
+
+- Le Graph :
+    L'utilisateur peut générer un graphique en modifiant des filtres grâce à la carte ou grâce à l'interface des filtres.
+    Cela inclu l'intervalle de date des données qui nous intéresse, le nom du quartier et le nom de la borne.
+    Il peut aussi sélectionner le type de graphique, à chaque fois pour une moyenne ou un total, c'est à dire le nombre de passage simple, par heure ou par jour dans l'intervalle donnée.
+
+    pour les graphes quand on selectionne tout les quartier et tout les compteur, le total des passage est par quartier, quand on selectionne un quartier et tout les compteurs, 
+    le total de passage est par compteur, quand on selectionne un compteur en particuler, on a les informations sur ce compteur...
+
+- Les Données :
+    L'utilisateur n'a pas les information pour se connecter à la base de donnée en tant qu'admin.
+    Mais il peut toujours voir ce que les admins peuvent effectuer comme modification.
+
+
+L'application pour un administrateur :
+
+Il n'y a pas de différence de fonctionnement pour la Map et le Graph entre les deux rôles.
+
+- Les Données :
+    Pour effectuer des actions d'administrateur, celui-ci doit se connecter avec un login et un mdp.
+    Une fois connecté (on peut le savoir avec un indication graphique), il peut effectuer 12 actions différentes listées par des boutons et rangé en 3 catégories :
+        - modification de donnée
+        - ajout de donnée
+        - suppression de donnée
+    Chaque bouton va afficher différentes interfaces ou l'admin va pouvoir effectuer ses modifications.
+
+    genre update un comptage, en montrant qu'il faut selectionner un des compteurs dans une combobox, une date dans le selectionneur de date, 
+    ensuite on a toutes les infos que l'on peux modifier, essayer d'update un compteur où l'on peux voir que on peux pas modifier l'id, 
+    un insert de compteur, où il faut selectionner un des quartier, 
+    essayer d'ouvrir un fichier csv de comptage, 
+    supprimer un quartier et montrer l'avant apres dans les graphs...
+
+Et finalement l'option quitter ferme l'application.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+We are now going to present you our application according to the two points of view provided by it, the user and the administrator:
+
+First of all, the application for a user. By selecting the map, the user can browse the Google map of Nantes directly on the application with the terminals indicated on the map. 
+He can therefore select any terminal that interests him, which will indicate its name, its id, its GPS position, its district, the total number of passages at this terminal and the average of the passages. 
+The application will automatically fill in the filters for the district and the name of the selected terminal.
+
+Then, the user can generate a graph by modifying filters using the map or using the filter interface. 
+This includes the date interval of the data we are interested in, the name of the district and the name of the terminal.
+For example, when selecting all the districts and all the terminals, the total number of passages is by district, when selecting a district and all of its terminals, the total number of passages is by terminals and when selecting a particular terminal, we have the information on this terminal.
+We can also select the type of graph, each time for an average or a total, that is to say the number of simple passages, per hour or per day in the given interval.
+Finally, as the user can't connect to the database as an admin, he will not be able to modify the data. But he can still see what the admins can do as modifications.
+
+Secondly, the application for an administrator. There is no difference in operation for the Map and the Graph between the two roles.
+To perform administrator actions, you must log in with a login and a password. 
+Once connected (we can know it with a graphical indication), you can perform 12 different actions listed by buttons and arranged in 3 categories which are data modification, data addition and data deletion.
+Each button will display different interfaces or the admin will be able to make his modifications in the application by entering the information in the fields provided for this purpose.
+For example, to update a terminal, you have to select one of the terminals in a combobox, a date in the date selector, then you have all the information that can be modified, 
+but if we try to update the id of a terminal you can see that you can't modify it.
+We can also insert a terminal, where you have to select one of the district or you can import a csv file of counting, 
+And at last you can delete a district and see the before and after in the graphs.
+
+Finally, the quit option closes the application.

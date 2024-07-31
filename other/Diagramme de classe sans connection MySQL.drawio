@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2023-06-17T09:10:06.084Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="tO_FPt9XgFoho7X37PxB" version="21.4.0" type="device">
+  <diagram name="Page-1" id="eOl2TCsbntun6FktnlMN">
+    <mxGraphModel dx="1393" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9qE0nhktHIJIXh96-6WT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.236;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="p_eBftwZYgydQJ64UmXx-5" target="MrOClFFpd0POXdo-1IgY-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qE0nhktHIJIXh96-6WT-86" value="- lesCompteurs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9qE0nhktHIJIXh96-6WT-73" vertex="1" connectable="0">
+          <mxGeometry x="-0.2114" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="p_eBftwZYgydQJ64UmXx-5" target="MrOClFFpd0POXdo-1IgY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_eBftwZYgydQJ64UmXx-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Quartier&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idQuartier : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nomQuartier : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- longueurPisteVelo : float&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Quartier(idQuartier : int, nomQuartier : String, longueurPisteVelo : float)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getIdQuartier() : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setIdQuartier(idQuartier : int) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNomQuartier() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNomQuartier(nomQuartier : String) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLongueurPisteVelo() : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setLongueurPisteVelo(longueurPisteVelo : float) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ addCompteur(leCompteur : Compteur) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ removeCompteur(leCompteur : Compteur) : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ toString() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalPassages(dateDebut : DateInfo, dateFin : DateInfo) : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ averagePassages(dateDebut : DateInfo, dateFin : DateInfo) : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalPassagesPerHour(dateDebut : DateInfo, dateFin : DateInfo) : int[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ averagePassagesPerHour(dateDebut : DateInfo, dateFin : DateInfo) : float[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalPassagesPerDay(dateDebut : DateInfo, dateFin : DateInfo) : int[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ averagePassagesPerDay(dateDebut : DateInfo, dateFin : DateInfo) : float[]&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="592.5" y="620" width="415" height="371.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9qE0nhktHIJIXh96-6WT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MrOClFFpd0POXdo-1IgY-1" target="MrOClFFpd0POXdo-1IgY-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="306" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="314" />
+              <mxPoint x="1090" y="314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qE0nhktHIJIXh96-6WT-85" value="- lesComptages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9qE0nhktHIJIXh96-6WT-74" vertex="1" connectable="0">
+          <mxGeometry x="-0.2783" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8S3w-2baMEadNncPOtm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.765;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MrOClFFpd0POXdo-1IgY-1" target="p_eBftwZYgydQJ64UmXx-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8S3w-2baMEadNncPOtm-2" value="- leQuartier" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="R8S3w-2baMEadNncPOtm-1" vertex="1" connectable="0">
+          <mxGeometry x="0.4034" relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="MrOClFFpd0POXdo-1IgY-1" target="MrOClFFpd0POXdo-1IgY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-13" value="&amp;lt;&amp;lt;local&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gI17rEdhYcq93kFuJi1m-10">
+          <mxGeometry x="-0.1616" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrOClFFpd0POXdo-1IgY-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Compteur&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idCompteur : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nomCompteur : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- sens : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- coordX : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- coordY : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- leQuartier : int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Compteur(idCompteur : int, nomCompteur : String, sens : String,&amp;nbsp; coordX : float, coordY : float, leQuartier : Quartier)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getIdCompteur() : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setIdCompteur(idCompteur : int) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNomCompteur() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNomCompteur(nomCompteur : String) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getSens() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setSens(sens : String) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCoordX() : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setCoordX(coordX : float) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCoordY() : float&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ setCoordY(coordY : float) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ getLeQuartier() : Quartier&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ setLeQuartier(leQuartier : Quartier) : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ addComptage(leComptage : Comptage) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ removeComptage(leComptage : Comptage) : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ toString() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalPassages(dateDebut : DateInfo, dateFin : DateInfo) : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ averagePassages(dateDebut : DateInfo, dateFin : DateInfo) : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalPassagesPerHour(dateDebut : DateInfo, dateFin : DateInfo) : int[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ averagePassagesPerHour(dateDebut : DateInfo, dateFin : DateInfo) : float[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalPassagesPerDay(dateDebut : DateInfo, dateFin : DateInfo) : int[]&lt;/p&gt;&amp;nbsp;+ averagePassagesPerDay(dateDebut : DateInfo, dateFin : DateInfo) : float[]&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="580" y="10" width="440" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="MrOClFFpd0POXdo-1IgY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MrOClFFpd0POXdo-1IgY-4" target="MrOClFFpd0POXdo-1IgY-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrOClFFpd0POXdo-1IgY-8" value="- anomalie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MrOClFFpd0POXdo-1IgY-7" vertex="1" connectable="0">
+          <mxGeometry x="0.225" relative="1" as="geometry">
+            <mxPoint x="-17" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8S3w-2baMEadNncPOtm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.001;entryY=0.834;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MrOClFFpd0POXdo-1IgY-4" target="MrOClFFpd0POXdo-1IgY-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1021" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8S3w-2baMEadNncPOtm-5" value="- leCompteur" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="R8S3w-2baMEadNncPOtm-4" vertex="1" connectable="0">
+          <mxGeometry x="0.139" relative="1" as="geometry">
+            <mxPoint x="8" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8S3w-2baMEadNncPOtm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.261;entryY=-0.001;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="MrOClFFpd0POXdo-1IgY-4" target="MrOClFFpd0POXdo-1IgY-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1400" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8S3w-2baMEadNncPOtm-8" value="- laDate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="R8S3w-2baMEadNncPOtm-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.1173" relative="1" as="geometry">
+            <mxPoint x="-5" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrOClFFpd0POXdo-1IgY-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Comptage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- passages : int[]&lt;/div&gt;&lt;div&gt;&amp;nbsp;- leCompteur : int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- laDate : Date&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Comptage(passages : int[], anomalie : PresenceAnomalie, leCompteur : Compteur, laDate : DateInfo)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPassage(heure : int) : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPassage(heure : int, passages : int) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPassages() : int[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPassages(passages : int[]) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAnomalie() : PresenceAnomalie&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setAnomalie(anomalie : PresenceAnomalie) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLeCompteur() : Compteur&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setLeCompteur(leCompteur : Compteur) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLaDate() : DateInfo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setLaDate(laDate : DateInfo) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ toString() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalPassages() : int&lt;/p&gt;&amp;nbsp;+ averagePassages() : float&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;glass=0;rounded=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="180" width="420" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="MrOClFFpd0POXdo-1IgY-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PresenceAnomalie&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Faible&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Forte&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Nulle&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="300" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9qE0nhktHIJIXh96-6WT-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="MrOClFFpd0POXdo-1IgY-15" edge="1" target="MrOClFFpd0POXdo-1IgY-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1465" y="620" />
+            </Array>
+            <mxPoint x="1570" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qE0nhktHIJIXh96-6WT-84" value="- lesComptages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9qE0nhktHIJIXh96-6WT-76" vertex="1" connectable="0">
+          <mxGeometry x="0.2587" y="-3" relative="1" as="geometry">
+            <mxPoint x="2" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kVGpFs-e-EHgGDJTWpAH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MrOClFFpd0POXdo-1IgY-15" target="MrOClFFpd0POXdo-1IgY-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1580" y="909" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-16" value="- vacances" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kVGpFs-e-EHgGDJTWpAH-16">
+          <mxGeometry x="-0.0376" y="1" relative="1" as="geometry">
+            <mxPoint x="8" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kVGpFs-e-EHgGDJTWpAH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="MrOClFFpd0POXdo-1IgY-15" target="MrOClFFpd0POXdo-1IgY-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1580" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kVGpFs-e-EHgGDJTWpAH-20" value="- jour" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kVGpFs-e-EHgGDJTWpAH-17" vertex="1" connectable="0">
+          <mxGeometry x="0.1117" y="2" relative="1" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrOClFFpd0POXdo-1IgY-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DateInfo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;- laDate : Date&lt;/div&gt;&lt;div&gt;&amp;nbsp;- tempMoy : float&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DateInfo(laDate : Date, tempMoy : float, jour : Jour, vacances : Vacances)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLaDate() : Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setLaDate(laDate : Date) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTempMoy() : float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTempMoy(tempMoy : float) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getJour() : Jour&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setJour(jour : Jour) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getVacances() : Vacances&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setVacances(vacances : Vacances) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ addComptage(leComptage : Comptage) : void&lt;/div&gt;&amp;nbsp;+ removeComptage(leComptage : Comptage) : void&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ toString() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isInVacances() : boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isInWeekend() : boolean&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalPassages() : int&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ averagePassages() : float&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ totalPassagesPerHour() : int[]&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ averagePassagesPerHour() : float[]&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="621.25" width="440" height="369" as="geometry" />
+        </mxCell>
+        <mxCell id="MrOClFFpd0POXdo-1IgY-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Jour&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;Lundi&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Mardi&lt;/div&gt;&lt;div&gt;&amp;nbsp;Mercredi&lt;/div&gt;&lt;div&gt;&amp;nbsp;Jeudi&lt;/div&gt;&lt;div&gt;&amp;nbsp;Vendredi&lt;/div&gt;&lt;div&gt;&amp;nbsp;Samedi&lt;/div&gt;&lt;div&gt;&amp;nbsp;Dimanche&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="620" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MrOClFFpd0POXdo-1IgY-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Vacances&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;Noel&lt;/div&gt;&lt;div&gt;&amp;nbsp;Ascension&lt;/div&gt;&lt;div&gt;&amp;nbsp;Hiver&lt;/div&gt;&lt;div&gt;&amp;nbsp;Ete&lt;/div&gt;&lt;div&gt;&amp;nbsp;Toussaint&lt;/div&gt;&lt;div&gt;&amp;nbsp;Printemps&lt;/div&gt;&lt;div&gt;&amp;nbsp;Nulle&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="829" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9qE0nhktHIJIXh96-6WT-88" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="285.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8S3w-2baMEadNncPOtm-6" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="999" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R8S3w-2baMEadNncPOtm-9" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="315.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-2" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-3" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-4" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-6" value="*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-8" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-9" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gI17rEdhYcq93kFuJi1m-14" value="&amp;lt;&amp;lt;local&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1079.9955978760227" y="789.9954205309614" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
